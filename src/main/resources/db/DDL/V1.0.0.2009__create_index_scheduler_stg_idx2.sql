@@ -1,0 +1,1 @@
+CREATE INDEX scheduler_stg_idx2 ON  scheduler.scheduler_stg(job_exec_id, created_at);

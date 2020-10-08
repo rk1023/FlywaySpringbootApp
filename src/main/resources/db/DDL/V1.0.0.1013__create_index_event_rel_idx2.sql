@@ -1,0 +1,1 @@
+create index event_rel_idx2 on apx.event_rel(root_event_id,created_at);

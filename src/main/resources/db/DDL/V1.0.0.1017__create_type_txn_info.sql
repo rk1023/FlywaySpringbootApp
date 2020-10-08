@@ -1,0 +1,32 @@
+DROP TYPE IF EXISTS apx.txn_info cascade;
+
+CREATE TYPE apx.txn_info AS (
+	event_id varchar(50),
+	created_at timestamptz(3),
+	event_type varchar(50),
+	status_cd varchar(50),
+	processing_state varchar(50),
+	txn_currency bpchar(3),
+	txn_amount numeric,
+	txn_type varchar(50),
+	txn_party_rel_id varchar(50),
+	txn_psp_id varchar(50),
+	txn_three_ds numeric,
+	txn_user_agent varchar(255),
+	org_id varchar(50),
+	account_id varchar(100),
+	txn_routing_cd varchar(1000),
+	txn_routing_type_cd varchar(100),
+	txn_dynamic_desc varchar(255),
+	txn_merchant_ref varchar(255),
+	txn_psp_ref varchar(255),
+	txn_cancel_amt numeric,
+	txn_capture_amt numeric,
+	txn_capture_count int2,
+	txn_capture_id varchar(50),
+	capture_created_at timestamptz(3),
+	capture_psp_ref varchar(255),
+	txn_cap_cancel_amt numeric,
+	txn_cap_refund_amt numeric,
+	txn_cap_ref_cancel_amt numeric
+	);

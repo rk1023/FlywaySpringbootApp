@@ -1,0 +1,1 @@
+create index txn_psp_txn_ref_idx on apx.txn(psp_txn_ref);

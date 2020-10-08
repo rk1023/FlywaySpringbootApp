@@ -1,0 +1,1 @@
+CREATE INDEX org_currency_idx1 on mdm.org_currency(org_id);

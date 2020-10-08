@@ -1,0 +1,1 @@
+call mdm.create_day_based_partition(2020,'apx','event_rel',1,true  );

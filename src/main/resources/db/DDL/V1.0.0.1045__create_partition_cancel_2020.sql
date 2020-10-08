@@ -1,0 +1,1 @@
+call mdm.create_day_based_partition(2020,'apx','cancel',1,true  );

@@ -1,0 +1,1 @@
+ALTER TABLE mdm.country  ALTER  column cntry_numeric TYPE  CHAR(3);

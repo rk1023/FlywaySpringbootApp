@@ -1,0 +1,30 @@
+DROP TYPE IF EXISTS apx.refund_info cascade;
+
+CREATE TYPE apx.refund_info AS (
+	event_id varchar(50),
+	event_type varchar(50),
+	created_at timestamptz(3),
+	txn_created_at timestamptz(3),
+	txn_amount numeric,
+	status_cd varchar(50),
+	txn_status_cd varchar(50),
+	processing_state varchar(50),
+	currency bpchar(3),
+	refund_amount numeric,
+	org_id varchar(50),
+	account_id varchar(100),
+	psp_id varchar(100),
+	txn_id varchar(50),
+	capture_id varchar(50),
+	routing_cd varchar(1000),
+	routing_type_cd varchar(100),
+	merchant_ref varchar(255),
+	psp_ref varchar(255),
+	refund_cancel_amt numeric,
+	refund_cap_amt numeric,
+	txn_capture_amt numeric,
+	txn_capture_count int2,
+	txn_cap_cancel_amt numeric,
+	txn_cap_refund_amt numeric,
+	txn_cap_ref_cancel_amt numeric
+	);

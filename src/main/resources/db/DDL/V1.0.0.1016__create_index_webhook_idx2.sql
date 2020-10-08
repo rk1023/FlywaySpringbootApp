@@ -1,0 +1,1 @@
+create index webhook_idx2 on apx.webhook(status_cd,created_at);

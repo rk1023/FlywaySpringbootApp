@@ -1,0 +1,2 @@
+INSERT INTO mdm.comm_driver(driver_name,channel_type_cd,  inbound_sw, outbound_sw,default_sw , created_by, created_at, updated_by, updated_at)VALUES(	'DEFAULT_DRIVER',	'EMAIL',	'Y',	'Y',	'Y',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+commit;

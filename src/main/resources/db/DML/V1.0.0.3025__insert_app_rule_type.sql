@@ -1,0 +1,10 @@
+INSERT INTO mdm.app_rule_type(name,  desc_txt, active_flg, created_by, created_at, updated_by, updated_at) VALUES(	'TOKENISER',	'Application key and encryption details for tokeniser component',	'Y',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm.app_rule_type(name,  desc_txt, active_flg, created_by, created_at, updated_by, updated_at) VALUES(	'CHRON_JOB_PROCESS',	'Process Job',	'Y',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm.app_rule_type(name,  desc_txt, active_flg, created_by, created_at, updated_by, updated_at) VALUES(	'CHRON_JOB_PULL',	'Pull Job',	'Y',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm.app_rule_type(name,  desc_txt, active_flg, created_by, created_at, updated_by, updated_at) VALUES(	'CHRON_JOB_REPULL',	'Repull Job',	'Y',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm.app_rule_type(name,  desc_txt, active_flg, created_by, created_at, updated_by, updated_at) VALUES(	'SFTP',	'SFTP',	'Y',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm.app_rule_type(name,  desc_txt, active_flg, created_by, created_at, updated_by, updated_at) VALUES(	'EMAIL_CONFIG',	'Email Configuration ',	'Y',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm.app_rule_type(name,  desc_txt, active_flg, created_by, created_at, updated_by, updated_at) VALUES(	'CANCEL_JOB',	'Cancel Job Configuration',	'Y',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm.app_rule_type(name,  desc_txt, active_flg, created_by, created_at, updated_by, updated_at) VALUES(	'IRE',	'Intelligent Routing Engine Configuration',	'Y',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm.app_rule_type(name,  desc_txt, active_flg, created_by, created_at, updated_by, updated_at) VALUES(	'FRAUD_ENGINE',	'Fraud Engine',	'Y',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+commit;

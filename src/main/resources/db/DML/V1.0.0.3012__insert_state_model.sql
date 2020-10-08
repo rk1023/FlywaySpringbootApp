@@ -1,0 +1,6 @@
+INSERT INTO mdm.state_model(name, status_cd, start_dt, end_dt, created_by, created_at, updated_by, updated_at)VALUES(	'Original Transaction Status',	'ACTIVE',	'01-01-2015',	'01-01-2099',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm.state_model(name, status_cd, start_dt, end_dt, created_by, created_at, updated_by, updated_at)VALUES(	'Capture Transaction Status',	'ACTIVE',	'01-01-2015',	'01-01-2099',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm.state_model(name, status_cd, start_dt, end_dt, created_by, created_at, updated_by, updated_at)VALUES(	'Cancel Transactin Status',	'ACTIVE',	'01-01-2015',	'01-01-2099',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm.state_model(name, status_cd, start_dt, end_dt, created_by, created_at, updated_by, updated_at)VALUES(	'Refund Transaction Status',	'ACTIVE',	'01-01-2015',	'01-01-2099',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm.state_model(name, status_cd, start_dt, end_dt, created_by, created_at, updated_by, updated_at)VALUES(	'CUP Original Transaction Status',	'ACTIVE',	'01-01-2015',	'01-01-2099',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+commit;

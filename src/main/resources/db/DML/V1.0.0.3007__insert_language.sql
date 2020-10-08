@@ -1,0 +1,4 @@
+INSERT INTO mdm."language"(alpha3_cd, alpha2_cd, name, base_locale, created_by, created_at, updated_by, updated_at) VALUES(	'ENG',	'EN',	'English',	'en_GB',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm."language"(alpha3_cd, alpha2_cd, name, base_locale, created_by, created_at, updated_by, updated_at) VALUES(	'ZHO',	'ZH',	'Chinese',	'zh_CN',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+INSERT INTO mdm."language"(alpha3_cd, alpha2_cd, name, base_locale, created_by, created_at, updated_by, updated_at) VALUES(	'RUS',	'RU',	'Russian',	'ru_RU',	'APEXX',CURRENT_DATE,'APEXX',CURRENT_DATE);
+commit;

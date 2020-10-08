@@ -1,0 +1,1 @@
+ALTER TABLE mdm.currency  ALTER column curcy_numeric TYPE CHAR(3);

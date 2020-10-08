@@ -1,0 +1,1 @@
+CREATE INDEX sys_job_exec_idx1 ON scheduler.sys_job_exec USING btree (job_id);
